@@ -1,0 +1,14 @@
+<p>calculator works!</p>
+<div>
+<input type="number" name="num1" [(ngModel)]="num1">
+<input type="number" name="num2" [(ngModel)]="num2">
+</div>
+<br><br>
+<button class="btn btn-primary"  (click)="add()">Add</button>
+<button class="btn btn-warning" (click)="sub()">Sub</button>
+<button class="btn btn-success" (click)="mul()">Mul</button>
+<button class="btn btn-danger" (click)="div()">Div</button>
+<br>
+<h3>Result:{{res}}</h3>
+
+
